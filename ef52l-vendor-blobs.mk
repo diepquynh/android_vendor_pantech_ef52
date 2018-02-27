@@ -14,3 +14,7 @@
 
 # Inherit from Pantech msm8960-common vendor
 $(call inherit-product, vendor/pantech/msm8960-common/msm8960-common-vendor-blobs.mk)
+
+PRODUCT_COPY_FILES += \
+    vendor/pantech/ef52l/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/pantech/ef52l/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
