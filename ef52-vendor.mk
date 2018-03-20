@@ -12,5 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit ef52l vendor
-$(call inherit-product, vendor/pantech/ef52l/ef52l-vendor-blobs.mk)
+# Inherit ef52 vendor
+$(call inherit-product, vendor/pantech/ef52/ef52-vendor-blobs.mk)
